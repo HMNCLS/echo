@@ -1,4 +1,6 @@
 javascript:(function(){
+  console.log("🔎 Code-through: Dark overlay + draggable marquee activated");
+
   // Remove existing if already present
   if (document.getElementById('dark-overlay')) {
     document.getElementById('dark-overlay').remove();
